@@ -86,7 +86,7 @@ body {
 
 .searchBoxDiv input {
     width : 15vw;
-    border : none;
+    border : none;6
     height : 3vh;
 }
 
@@ -111,3 +111,44 @@ body {
     color : rgba(128, 0, 0, 0.826)
 }
 
+.nav-container {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    border : 1px dashed rgba(27, 26, 26, 0.205);
+    margin-top : 1vh;
+    height : 4vh;
+    padding-left : 1vw;
+    padding-right : 1vw;
+    
+}
+
+.nav-container a {
+    text-decoration : none;
+    color : #666666;
+    font-family : Arial, sans-serif;
+    font-size : 12px;
+    font-weight : 600;
+    
+}
+
+.linksPart1 {
+    
+    width : 38vw;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    
+}
+
+.linksPart2{
+    word-spacing : 0.7vw;
+}
+
+.nav-container a:hover {
+    color : white;
+    background-color : #6ABAEA;
+    height : 3vh;
+}
