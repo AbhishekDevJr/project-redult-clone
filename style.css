@@ -38,6 +38,76 @@ body {
     border-radius : 1px;
 }
 
+.lang-bar a:hover {
+    text-decoration : underline;
+}
+
 #first {
     margin-right : 0.1vw;
 }
+
+.headerDiv {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    
+}
+
+#headerimg1 {
+    margin-top : -2vh;
+    margin-left : 0vw;
+}
+
+#headerImg2 {
+    
+    margin-top : 3vh;
+    margin-left : -2vw;
+}
+
+#headerImg3 {    
+    height : 14vh;
+    width : 6.5vw;
+    margin-right : -1vw;
+}
+
+.searchBoxDiv {
+    border : 1px solid rgba(0, 0, 0, 0.26);
+    
+    display : flex;
+    flex-direction : row;
+    justify-content : flex-end;
+    align-items : center;
+    margin-left :46vw;
+    margin-top : 0.8vh;
+    width : 20vw;
+       
+}
+
+.searchBoxDiv input {
+    width : 15vw;
+    border : none;
+    height : 3vh;
+}
+
+.searchBoxDiv input:focus{
+    border : none;
+    outline : none;
+}
+
+.searchBoxDiv a{
+    background-color : #09F;
+    color : white;
+    height : 3vh;
+    width : 4vw;
+    text-align : center;
+    text-decoration : none;
+    font-family : Georgia, "Times New Roman", Times, serif;
+    font-weight : 500;
+    border-radius : 1px;
+}
+
+.searchBoxDiv a:hover {
+    color : rgba(128, 0, 0, 0.826)
+}
+
