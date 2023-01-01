@@ -1,0 +1,43 @@
+body {
+    background-color : #CCC;
+    padding : 0px;
+    margin : 0px;
+    height : 120vh;
+}
+
+.contents-container {
+    border : 1px solid transparent;
+    background-color : white;
+    width : 66.5vw;
+    height : 115vh;
+    margin-left : 16vw;
+    box-shadow : 0.5px 0.5px 2px 2px rgba(0, 0, 0, 0.201),
+                 -0.5px -0.5px 2px 2px rgba(0, 0, 0, 0.107);
+}
+
+.lang-bar {
+    
+    display : flex;
+    flex-direction : row;
+    justify-content : flex-end;
+    align-items : center;
+    padding-right : 0.6vw;
+}
+
+.lang-bar a {
+    text-decoration : none;
+    width : 4.5vw;
+    text-align : center;
+    font-family : font-family: Georgia, "Times New Roman", Times, serif;
+    background-color : #6ABAEA;
+    color : white;
+    font-size : 12px;
+    font-style : italic;
+    height : 2.5vh;
+    padding-top : 0.4vh;
+    border-radius : 1px;
+}
+
+#first {
+    margin-right : 0.1vw;
+}
