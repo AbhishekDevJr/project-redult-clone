@@ -28,7 +28,7 @@ body {
     text-decoration : none;
     width : 4.5vw;
     text-align : center;
-    font-family : font-family: Georgia, "Times New Roman", Times, serif;
+    font-family : Georgia, "Times New Roman", Times, serif;
     background-color : #6ABAEA;
     color : white;
     font-size : 12px;
@@ -86,7 +86,7 @@ body {
 
 .searchBoxDiv input {
     width : 15vw;
-    border : none;6
+    border : none;
     height : 3vh;
 }
 
@@ -208,3 +208,123 @@ body {
     font-weight : 500;
 }
 
+.form-div {
+    border : 3px solid #CC3300;
+    width : 38.5vw;
+    margin-left : 14vw;
+    margin-top : 0.8vh;
+    height : 55vh;
+    font-family : Georgia, "Times New Roman", Times, serif;
+    font-size : 11.7px;
+    font-weight : 600;
+    color : #45494C;
+    letter-spacing : -0.3px;
+}
+
+#form-heading {
+    margin-top : 0.3vh;
+    margin-left : 3vw;
+}
+
+.form-div span, select, input {
+    margin-top : 1vh;
+}
+
+#select-1 {
+    margin-left : 4.2vw;
+    width : 9.5vw;
+}
+
+.form-input-contianer p {
+    margin-left : 19vw;
+    margin-top : 0.5vh;
+}
+
+.select-2 {
+    margin-top : -1.5vh;
+}
+
+.input-1 {
+    margin-top : -1vh;
+}
+
+#input1-id{
+    margin-left : 12.35vw;
+    height : 3.7vh;
+    width : 9.8vw;
+}
+
+#span1-id {
+    font-weight : 400;
+}
+
+.dob-class {
+    margin-top : -1vh;
+}
+
+#input2-id {
+    margin-left : 8.45vw;
+    width : 9.8vw;
+    height : 3.7vh;
+}
+
+#span2-id {
+    font-weight : 400;
+}
+
+.acc-class {
+    margin-top : -1vh;
+}
+
+#input3-id {
+    margin-left : 8.7vw;
+    width : 9.8vw;
+    height : 3.7vh;
+}
+
+#span3-id {
+    font-weight : 400;
+}
+
+.exam-class {
+    margin-top : -1vh;
+}
+
+#input4-id {
+    margin-left : 5.9vw;
+    width : 9.8vw;
+    height : 3.7vh;
+}
+
+#span4-id {
+    font-weight : 400;
+}
+
+#span5-id, #span6-id {
+    margin-top : -10vh;
+}
+
+#span6-id {
+    margin-left : 11.3vw;
+    font-weight : 400;
+}
+
+#span7-id {
+    margin-left : 11.9vw;
+    font-weight : 400;
+}
+
+.submit-button a {
+    margin-left : 33vw;
+    margin-top : 3vh;
+    text-decoration : none;
+    background-color : #09F;
+    border : 1px solid black;
+    height : 7vh;
+}
+
+.submit-button {
+    margin-top : 2vh;
+    border : 1px solid cyan;
+    height : 10vh;
+}

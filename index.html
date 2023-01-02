@@ -50,6 +50,50 @@
             <div class = "result-form-header">
                 <p>Result Of Secondary & Sr. Secondary First Examination- June 2022</p>
             </div>
+
+            <div class = "form-div">
+                <p id = "form-heading">Search By Roll No., DOB,Accreditationcode, examcenter code, Mobile No. and Email Id.</p>
+                <div class = "form-input-contianer">
+                    <span>Select Result of TOC/NON TOC:</span>
+                    <select name = "TOC/NOC" id = "select-1">
+                        <option value = "">--Select--</option>
+                        <option value = "">TOC</option>
+                        <option value = "">NOT TOC</option>
+                    </select>
+                    <p>AND</p>
+                    <span class = "select-2">Select Result of Secondary/ Sr. Secondary:</span>
+                    <select name = "SR/SE" id = "se-exam" class = select-2>
+                        <option value = "">--Select Examination--</option>
+                        <option value = "">Secondary</option>
+                        <option value = "">Sr. Secondary</option>
+                    </select>
+                    <p>AND</p>
+                    <span class = "input-1">ROll No.:</span>
+                    <input name = "roll-no" type = "text" class = "input-1" id = "input1-id">
+                    <span id = "span1-id" class = "input-1">(i.e: 2021003130) </span>
+                    <p>AND</p>
+                    <span class = "dob-class">DOB(dd-mm-yyyy):</span>
+                    <input name = "dob" type = "text" class = "dob-class" id = "input2-id">
+                    <span id = "span2-id" class = "dob-class">( i.e: 31-01-2000 ) </span>
+                    <p>AND</p>
+                    <span class = "acc-class">Accreditationcode:</span>
+                    <input id = "input3-id" name = "acc" type = "text" class = "acc-class">
+                    <span id = "span3-id" class = "acc-class">(i.e: CW32030314) </span>
+                    <p>AND</p>
+                    <span class = "exam-class">Examination Centre Code:</span>
+                    <input id = "input4-id" name = "ecc" type = "text" class = "exam-class">
+                    <span id = "span4-id" class = "exam-class">(i.e: 202011)</span>
+                    <p>AND</p>
+                    <span id = "span5-id" class = "mob-class">Mobile No.:</span>
+                    <span id = "span6-id" class = "mob-class">(Given at time of exam form) </span>
+                    <p>AND</p>
+                    <span class = "email-class">Email Id.:</span>
+                    <span id = "span7-id" class = "email-class">(Given at time of exam form) </span>
+                </div>
+            </div>
+            <div class = "submit-button">
+                <a href = "#">Submit</a>
+            </div>
         </div>
     </body>
 </html>
