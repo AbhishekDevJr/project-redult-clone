@@ -352,5 +352,31 @@ body {
     margin-left : 6.5vw;
 }
 
+.footer-class {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    align-items : center;
+    padding-left : 12vw;
+    padding-right : 12vw;
+    height : 40vh;
+    background-color : #820C09;
+    color : #CCCCCC
+}
+
+.footer-class a {
+    text-decoration : none;
+    color : #CCCCCC
+}
+
+.footer-class ul {
+    list-style: none;
+    margin-left : -1.5vw;
+}
+
+.footer-class p {
+    color : #CCCCCC
+}
+
 
 
