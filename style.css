@@ -357,16 +357,21 @@ body {
     flex-direction : row;
     justify-content : space-evenly;
     align-items : center;
-    padding-left : 12vw;
+    padding-left : 16vw;
     padding-right : 12vw;
     height : 40vh;
     background-color : #820C09;
-    color : #CCCCCC
+    color : #CCCCCC;
+    
 }
 
 .footer-class a {
     text-decoration : none;
     color : #CCCCCC
+}
+
+.footer-class a:hover {
+    color : #09F
 }
 
 .footer-class ul {
@@ -377,6 +382,69 @@ body {
 .footer-class p {
     color : #CCCCCC
 }
+
+.list-container-1, .list-container-2, .list-container-3, .list-container-4 {
+
+    margin-top : -14vh;
+    margin-left : -8vw;
+    font-family : Georgia, "Times New Roman", Times, serif;
+    font-style : italic;
+}
+
+.list-container-1, .list-container-3, .list-container-4{
+
+    margin-top : -16vh;
+}
+
+.list-container-4 {
+    margin-top : -18.5vh;
+}
+
+.footer-class ul {
+    font-size : 12px;
+    line-height : 3.3vh;
+}
+
+.list-container-2 {
+    margin-top : -9vh;
+}
+
+.list-container-3{
+    margin-top : -15.5vh;
+}
+
+.footer-class p {
+    font-size : 14px;
+}
+
+.dashed-line-1, .dashed-line-2, .dashed-line-3, .dashed-line-4 {
+    border-bottom : 1px dashed #ccc;
+    width : 14vw;
+    margin-left : 1vw;
+}
+
+.last-container-div {
+    background-color : #820C09;
+    color : #CCCCCC;
+    margin-top : -4vh;
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+}
+
+.last-container-div p {
+    color : #999999;
+    text-align : center;
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    font-size : 10px;
+    margin-top : -2vh;
+    border-top : 1px solid #3b3b3b;
+    height : 3.5vh;
+    padding-top : 2vh;
+    width : 65vw;
+}
+
 
 
 
